@@ -1,0 +1,30 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 50px;
+
+        list-style: none;
+    }
+}
+
+
+#dishes {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
